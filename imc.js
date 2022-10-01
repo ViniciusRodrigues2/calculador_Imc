@@ -45,7 +45,8 @@
         const nivel = [
             "Magreza",
             "Peso Normal",
-            "SobrePeso |",
+            "SobrePeso",
+            "obesidade Grau |",
             "Obesidade Grau ||",
             "Obesidade Grau |||"
         ]
