@@ -101,9 +101,11 @@ body{
 }
 .green{
     padding: 10px 20px;
-    background: linear-gradient(120deg,rgb(160, 226, 220),rgb(174, 226, 160))
+    background: linear-gradient(120deg,rgb(160, 226, 220),rgb(174, 226, 160));
+    color: #1c1c1c;
 }
 .bad{
     padding: 10px 20px;
     background-color: rgb(196, 101, 47);
+    color: #1c1c1c;
 }
