@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculador de massa corporal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content-title">
+            <h1>calculador de imc</h1>
+        </div>
+       <article class="content-types-imc">
+        <div class="content-title-type">
+            <p>Menor Que 18.5</p>
+            <p>Entre 18.5 E 24.9</p>
+            <p>Entre 25.0 E 29.9</p>
+            <p>Entre 30.0 E 39.9</p>
+            <p>Maior Que 40.0</p>
+        </div>
+        <div class="content-types">
+            <p>Magreza</p>
+            <p>Normal</p>
+            <p>SobrePeso |</p>
+            <p>Obesidade ||</p>
+            <p>Obesidade |||</p>
+        </div>
+       </article>
+       <form action="/" id="form" method="post">
+
+        <label for="peso">Peso: <span class="color">(Ex:80)</span></label>
+        <input type="text" id="peso" name="Peso">
+        <label for="altura">Altura: <span class="color">(Ex:1.80)</span></label>
+        <input type="text" id="altura" name="Altura">
+        <button type="submit" id="btn-sub">Mostra</button>
+       </form>
+       <div class="result"></div>
+    </div>
+</body>
+<script src="imc.js" defer></script>
+</html>
+
+<!-- MENOR QUE 18,5	MAGREZA	0
+ENTRE 18,5 E 24,9	NORMAL	0
+ENTRE 25,0 E 29,9	SOBREPESO	I
+ENTRE 30,0 E 39,9	OBESIDADE	II
+MAIOR QUE 40,0	OBESIDADE GRAVE	III -->
